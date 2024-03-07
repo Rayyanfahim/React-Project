@@ -1,11 +1,13 @@
-import MainScore from "./MainScore";
-import MainSearch from "./MainSearch";
+import Header from "./Header";
+import Products from "./Products";
 
 export default function Main() {
   return (
-    <section className="py-24 lg:pt-[120px] lg:pb-28">
-      <MainSearch />
-      <MainScore />
-    </section>
+    <div>
+      <main className="my-10 lg:my-14">
+        <Header />
+        <Products />
+      </main>
+    </div>
   );
 }

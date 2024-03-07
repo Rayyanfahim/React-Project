@@ -1,13 +1,11 @@
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
 import Main from "./components/Main";
 import Navbar from "./components/NavBar";
 
 export default function App() {
   return (
-    <div className="bg-[#172227] font-[Inter] text-white">
+    <div className="relative font-[Manrope] before:fixed before:left-0 before:top-0 before:-z-10 before:h-[435px] before:w-full before:rounded-bl-3xl before:bg-[#EAE6D7] max-md:px-4 lg:text-lg before:lg:rounded-bl-[79px]">
       <Navbar />
-      <Hero />
       <Main />
       <Footer />
     </div>
