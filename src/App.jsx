@@ -1,6 +1,6 @@
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-import Navbar from "./components/NavBar";
+import Footer from "./components/unTouchableComponents/Footer";
+import Main from "./components/unTouchableComponents/Main";
+import Navbar from "./components/unTouchableComponents/NavBar";
 
 export default function App() {
   return (

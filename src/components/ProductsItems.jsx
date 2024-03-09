@@ -2,7 +2,7 @@ import { useState } from "react";
 import assetsBook from "../assets/book.png";
 import assetsStar from "../assets/star.svg";
 
-export default function BookOne() {
+export default function ProductsItems() {
   const [isToggled, setIsToggled] = useState(true);
 
   const handleClick = () => {

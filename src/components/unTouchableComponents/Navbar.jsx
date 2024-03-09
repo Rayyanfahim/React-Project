@@ -1,4 +1,4 @@
-import lws from "../assets/lws-logo-en.svg";
+import lws from "../../assets/lws-logo-en.svg";
 
 export default function Navbar() {
   return (

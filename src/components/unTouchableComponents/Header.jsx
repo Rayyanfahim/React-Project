@@ -1,5 +1,5 @@
-import SearchInput from "./SearchInput";
-import SortButton from "./SortButton";
+import SearchInput from "../SearchInput";
+import SortButton from "../SortButton";
 
 export default function Header() {
   return (
